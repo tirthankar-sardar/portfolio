@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@tirthankar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="background-canvas"></canvas>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">@tirtho</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content animate-fade-in">
+                    <h1 class="hero-title">Hi, I'm <span class="text-primary">Tirthankar Sardar</span></h1>
+                    <h2 class="hero-subtitle">Software Engineer and AI-ML Enthusiast</h2>
+                    <p class="hero-description">
+                        Third-year CSE (Data Science) student passionate about AI/ML, RAG, and statistical modeling.
+                        I craft intelligent solutions by blending deep tech, data-driven insights, and problem-solving precision.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">
+                            <i class="fas fa-user"></i> About Me
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image animate-item">
+                        <div class="image-container">
+                            <img src="https://media.licdn.com/dms/image/v2/D5603AQH5MTZEnYuMhQ/profile-displayphoto-shrink_400_400/B56ZOSWU5IHYAo-/0/1733327147344?e=1749081600&v=beta&t=inqJNR5XFRhu2TCEbSazIny3alINl9GIJsyJkZ2ez6c" alt="tirthankar_img">
+                        </div>
+                    </div>
+                    <div class="about-text animate-item">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I'm a third-year B.Tech CSE (Data Science) student with a passion for AI/ML, RAG systems, and statistical modeling. I aspire to become a skilled Software Developer, constantly learning and applying relevant technologies to solve real-world problems.
+                        </p>
+                        <p>
+                            My enthusiasm lies in problem-solving, exploring computer science fundamentals, and building intelligent, data-driven solutions. I enjoy competitive programming, value teamwork, and believe that collaboration enhances both communication and analytical thinking.
+                        </p>
+                        <p>
+                            With a growing foundation in full-stack development, I aim to contribute meaningfully—both to innovative organizations and to the world at large—through technology and focused impact.
+                        </p>
+                        <div class="about-info">
+                            <div class="info-item">
+                                <h4>Location</h4>
+                                <p>Kolkata, West Bengal</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Email</h4>
+                                <p>tirthankar2103@gmail.com</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Availability</h4>
+                                <p>Internship & Part-time</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>Experience</h4>
+                                <p>N/A (Currently Student)</p>
+                            </div>
+                        </div>
+                        <div class="about-buttons">
+                            <a href="https://drive.google.com/file/d/1ZAhxbapIX-pkB8jsso9yMragtgbmClhE/view?usp=sharing" class="btn btn-outline">
+                                <i class="fas fa-file-alt"></i> Download CV
+                            </a>
+                            <a href="#contact" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i> Hire Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subsection-title">My Journey</h3>
+                <div class="timeline">
+                    <div class="timeline-item animate-item">
+                        <!--<div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Senior Frontend Developer</h4>
+                            <p class="timeline-date">2021 - Present</p>
+                            <p class="timeline-company">Tech Innovations Inc.</p>
+                            <p class="timeline-description">
+                                Leading the frontend development team, implementing best practices, and architecting scalable solutions for enterprise clients.
+                            </p>
+                        </div>-->
+                    </div>
+                    <div class="timeline-item animate-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Reasearch Scholar</h4>
+                            <p class="timeline-date">2025 - present</p>
+                            <p class="timeline-company">Techno International NewTown</p>
+                            <p class="timeline-description">
+                                Designed a cryptographic system using octonions and sedenions for secure encryption. Leveraged non-associative and zero-divisor properties to enhance security and resist cryptanalysis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animate-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>DSA & AI-ML</h4>
+                            <p class="timeline-date">2023 - present</p>
+                            <p class="timeline-company">LeetCode & DML</p>
+                            <p class="timeline-description">
+                                Consistent hands-on practice in Data Structures & Algorithms on LeetCode (Knight Badge, 1850+ Contest Rating). Active on DML, solving advanced Machine Learning and Mathematics problems using Python to sharpen applied AI skills.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animate-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Bachelor's Degree in Computer Science and Engineering (Data Science)</h4>
+                            <p class="timeline-date">2022 - 2026</p>
+                            <p class="timeline-company">Techno International NewTown</p>
+                            <p class="timeline-description">
+                                Focused on CS fundamentals, algorithms, data science and AI ML. Participated in hackathons and coding competitions to enhance problem-solving skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <h2 class="section-title">What I can do</h2>
+                <p class="section-description">
+                    I craft intelligent, secure solutions using AI, DSA, cryptography, and full-stack development.
+                </p>
+                <div class="services-grid">
+                    <div class="service-card animate-item">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>DSA & Mathematical Modeling</h3>
+                        <p>
+                            Designing efficient algorithms and building intelligent solutions through deep expertise in data structures, problem-solving, and statistical modeling grounded in advanced mathematics.
+                        </p>
+                    </div>
+                    <div class="service-card animate-item">
+                        <div class="service-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>AI ML</h3>
+                        <p>
+                            Building intelligent systems with a focus on machine learning, deep learning, and real-world AI applications for smart, data-driven solutions.
+                        </p>
+                    </div>
+                    <div class="service-card animate-item">
+                        <div class="service-icon">
+                            <i class="fas fa-file-code"></i>
+                        </div>
+                        <h3>Full Stack Development</h3>
+                        <p>
+                            End-to-end application development from database design to API implementation and frontend integration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-description">
+                    Here are some of my projects. Each built with a focus on performance, real-world impact, and intelligent problem-solving.
+                </p>
+                <div class="projects-grid">
+                    <div class="project-card animate-item">
+                        <!--<div class="project-image">
+                            <img src="https://via.placeholder.com/600x400" alt="E-commerce Platform">
+                        </div>-->
+                        <div class="project-content">
+                            <h3>GraphRAG</h3>
+                            <p>
+                                Developed a robust question-answering system that leverages graph-based knowledge representation, semantic search, and a powerful LLM to provide comprehensive answers over your PDF data.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Hugging Face</span>
+                                <span class="tag">Neo4j</span>
+                                <span class="tag">groq</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://colab.research.google.com/drive/1rtAn8yT0Pss99QlHehp0XDt8n-tf6mDw?usp=sharing" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="https://colab.research.google.com/drive/1rtAn8yT0Pss99QlHehp0XDt8n-tf6mDw#scrollTo=2h0NdTRuCa0k&line=1&uniqifier=1" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="project-card animate-item">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Task Management App">
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p>
+                                A collaborative task management tool with real-time updates and team features.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Tailwind CSS</span>
+                                <span class="tag">Redux</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card animate-item">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/600x400" alt="Weather Dashboard">
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather Dashboard</h3>
+                            <p>
+                                An interactive weather application with location-based forecasts and historical data.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">OpenWeather API</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">Geolocation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="#" class="btn btn-outline">
+                        <i class="fas fa-external-link-alt"></i> View All Projects
+                    </a>
+                </div>-->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Skills </h2>
+                <p class="section-description">
+                    I've worked with a variety of technologies and frameworks .
+                </p>
+                <div class="skills-grid">
+                    <div class="skill-card animate-item">
+                        <div class="skill-progress" data-progress="90">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="skill-circle-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="skill-circle-progress" style="--progress: 90"></circle>
+                            </svg>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <h3>C, C++, Java</h3>
+                    </div>
+                    <div class="skill-card animate-item">
+                        <div class="skill-progress" data-progress="85">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="skill-circle-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="skill-circle-progress" style="--progress: 85"></circle>
+                            </svg>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <h3>Python (AI ML)</h3>
+                    </div>
+                    <div class="skill-card animate-item">
+                        <div class="skill-progress" data-progress="80">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="skill-circle-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="skill-circle-progress" style="--progress: 80"></circle>
+                            </svg>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <h3>Data Science</h3>
+                    </div>
+                    <div class="skill-card animate-item">
+                        <div class="skill-progress" data-progress="75">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" class="skill-circle-bg"></circle>
+                                <circle cx="50" cy="50" r="45" class="skill-circle-progress" style="--progress: 75"></circle>
+                            </svg>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                </div>
+
+                <div class="skills-details">
+                    <div class="skill-detail animate-item">
+                        <h3>Data Structure and Algorithms</h3>
+                        <p>
+                            My approach emphasizes writing clean, efficient, and optimized code to solve complex problems. I focus on deep understanding and practical application of core concepts to build robust solutions.
+                        </p>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span> Proficient in arrays, linked lists, trees, graphs, stacks, queues, heaps, and hash maps</li>
+                            <li><span class="skill-dot"></span> Strong grasp of algorithmic paradigms: recursion, divide & conquer, dynamic programming, greedy, and backtracking</li>
+                            <li><span class="skill-dot"></span> Skilled in analyzing time and space complexity for performance optimization</li>
+                            <!--<li><span class="skill-dot"></span> Animation and interaction with CSS and JavaScript</li>-->
+                        </ul>
+                    </div>
+                    <div class="skill-detail animate-item">
+                        <h3>Artificial Intelligence & Machine Learning</h3>
+                        <p>
+                            I specialize in applying AI and machine learning techniques to solve real-world problems, with a strong foundation in both theoretical concepts and practical implementation. I build intelligent systems that learn from data and adapt over time.
+                        </p>
+                        <ul class="skill-list">
+                            <li><span class="skill-dot"></span> Proficient in supervised, unsupervised, and reinforcement learning</li>
+                            <li><span class="skill-dot"></span> Hands-on experience with libraries like Scikit-learn, TensorFlow, PyTorch, and Keras</li>
+                            <li><span class="skill-dot"></span> Skilled in building and fine-tuning models for classification, regression, clustering, and NLP tasks</li>
+                            <!--<li><span class="skill-dot"></span> Serverless architecture with AWS Lambda and Vercel</li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section">
+            <div class="container">
+                <h2 class="section-title">Achievements & Recognition</h2>
+                <p class="section-description">
+                    Highlights from my professional journey and contributions to the tech community.
+                </p>
+                <div class="achievements-grid">
+                    <div class="achievement-card animate-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Knight Badge</h3>
+                        <p class="achievement-org">LeetCode</p>
+                        <p class="achievement-date">April 2025</p>
+                        <p class="achievement-description">
+                            Achieved LeetCode Knight badge with 200+ problems after 2 years of dedicated DSA practice and problem-solving.
+                        </p>
+                    </div>
+                    <!--<div class="achievement-card animate-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Open Source Contributor</h3>
+                        <p class="achievement-org">React Community</p>
+                        <p class="achievement-date">2020 - Present</p>
+                        <p class="achievement-description">
+                            Active contributor to React ecosystem with over 500 contributions and 5 maintained packages.
+                        </p>
+                    </div>
+                    <div class="achievement-card animate-item">
+                        <div class="achievement-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Speaker</h3>
+                        <p class="achievement-org">Various Tech Conferences</p>
+                        <p class="achievement-date">2019 - Present</p>
+                        <p class="achievement-description">
+                            Regular speaker at industry conferences on topics including frontend architecture, performance optimization, and accessibility.
+                        </p>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <!--<section class="testimonials section">
+            <div class="container">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-description">
+                    What people say about working with me and the results we've achieved together.
+                </p>
+                <div class="testimonials-slider">
+                    <div class="testimonials-track">
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-content">
+                                John delivered an exceptional product that exceeded our expectations. His attention to detail and ability to translate our requirements into a beautiful, functional interface was impressive.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="https://via.placeholder.com/100" alt="Sarah Johnson">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4>@logic-buildings</h4>
+                                    <p>Product Manager at TechCorp</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-content">
+                                Working with John was a pleasure. He not only built our platform but also provided valuable insights that improved our overall product strategy. Highly recommended!
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="https://via.placeholder.com/100" alt="Michael Chen">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4>@logic-buildings</h4>
+                                    <p>CEO at StartupX</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-quote">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-content">
+                              @logic-buildings work on our website redesign resulted in a 40% increase in conversion rates. His understanding of both design principles and technical implementation is rare and valuable.
+                            </p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">
+                                    <img src="https://via.placeholder.com/100" alt="Emily Rodriguez">
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4>Emily Rodriguez</h4>
+                                    <p>Marketing Director at GrowthCo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <button class="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                        <div class="testimonial-dots">
+                            <span class="testimonial-dot active"></span>
+                            <span class="testimonial-dot"></span>
+                            <span class="testimonial-dot"></span>
+                        </div>
+                        <button class="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>-->
+
+        <!-- Blog Section -->
+        <section class="blog section">
+            <div class="container">
+                <h2 class="section-title">Publications</h2>
+                <!--<p class="section-description">
+                    I write about web development, design, and technology. Check out my latest articles.
+                </p>-->
+                <div class="blog-grid">
+                    <div class="blog-card animate-item">
+                        <!--<div class="blog-image">
+                            <img src="https://via.placeholder.com/500x300" alt="Building Accessible React Applications">
+                        </div>-->
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i class="fas fa-calendar"></i>
+                                <span>April, 2025</span>
+                            </div>
+                            <h3>Hypercomplex Number Cryptography</h3>
+                            <p>
+                                This project introduces a novel cryptographic system using hypercomplex algebras—octonions and sedenions. It leverages their non-associativity and zero divisors to create a mathematically intricate and secure encryption method.
+                            </p>
+                            <a href="#" class="blog-link">Read More</a>
+                        </div>
+                    </div>
+                    <!--<div class="blog-card animate-item">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/500x300" alt="Performance Optimization Techniques for Next.js">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i class="fas fa-calendar"></i>
+                                <span>May 22, 2023</span>
+                            </div>
+                            <h3>Performance Optimization Techniques for Next.js</h3>
+                            <p>
+                                Discover advanced strategies to improve the performance of your Next.js applications.
+                            </p>
+                            <a href="#" class="blog-link">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card animate-item">
+                        <div class="blog-image">
+                            <img src="https://via.placeholder.com/500x300" alt="The Future of Web Development: What's Coming in 2024">
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i class="fas fa-calendar"></i>
+                                <span>April 10, 2023</span>
+                            </div>
+                            <h3>The Future of Web Development: What's Coming in 2024</h3>
+                            <p>
+                                Explore upcoming trends and technologies that will shape the future of web development.
+                            </p>
+                            <a href="#" class="blog-link">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="#" class="btn btn-outline">
+                        <i class="fas fa-external-link-alt"></i> View All Articles
+                    </a>
+                </div>-->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Have a project in mind or want to chat? Feel free to reach out!
+                </p>
+                <div class="contact-container">
+                    <div class="contact-info animate-item">
+                        <h3>Contact Information</h3>
+                        <p>
+                            I'm currently available for internships and part-time positions. If you have a project that aligns with my skills, I'd love to hear about it.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p>tirthankar2103@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+                                <div>
+                                    <h4>Availability</h4>
+                                    <p>Interships & part time</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <div>
+                                    <h4>Response Time</h4>
+                                    <p>Within 24 hours</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <h4>Connect with me</h4>
+                            <div class="social-icons">
+                                <a href="https://github.com/tirthankar-sardar" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tirthankar-sardar-b3017a26b/" class="social-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://x.com/Tirthankar_03" class="social-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container animate-item">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                        <div id="form-success" class="form-success">
+                            <div class="success-icon">
+                                <i class="fas fa-paper-plane"></i>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thanks for reaching out. I'll get back to you as soon as possible.</p>
+                            <button id="send-another" class="btn btn-primary">Send Another Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>@tirtho</h3>
+                    <p>
+                        AI & Data Science Enthusiast specializing in intelligent systems, algorithmic problem-solving, and mathematical modeling using modern technologies.
+                    </p>
+                    <p class="copyright">
+                        © <span id="current-year"></span> Tirthankar Sardar. All rights reserved.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">DSA & Mathematical Modelling</a></li>
+                        <li><a href="#">AI ML</a></li>
+                        <li><a href="#">Full Stack Development</a></li>
+                        <li><a href="#">Reasearch</a></li>
+                        <li><a href="#">Code Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>
+                        Subscribe to my newsletter for my latest work and updates about whats happening in my life lately.
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Designed and built with ❤️ by @tirtho</p>
+                <div class="footer-social">
+                    <a href="https://github.com/tirthankar-sardar" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tirthankar-sardar-b3017a26b/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/Tirthankar_03" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="background.js"></script>
+</body>
+</html>
