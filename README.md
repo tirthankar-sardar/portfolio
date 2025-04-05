@@ -13,8 +13,8 @@ Clean & Modern Design – Minimalist aesthetic with smooth transitions and intui
 No Frameworks Required – Built entirely with vanilla HTML, CSS, and JavaScript for maximum performance and simplicity.
 
 🛠️ Technologies Used
-HTML5 – Markup structure
+HTML – Markup structure
 
-CSS3 – Styling, layout, responsiveness
+CSS – Styling, layout, responsiveness
 
-JavaScript (ES6+) – Dynamic interactions and UI behavior
+JavaScript – Dynamic interactions and UI behavior
